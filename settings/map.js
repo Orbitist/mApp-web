@@ -4,7 +4,7 @@
 });
 
 // add an OpenStreetMap tile layer
-L.tileLayer('http://{s}.tiles.mapbox.com/v4/orbitist.ie90k9cc/{z}/{x}/{y}.png', {
+L.tileLayer('http://{s}.tiles.mapbox.com/v4/orbitist.l3d32kbn/{z}/{x}/{y}.png', {
 	attribution: '&copy; <a href="http://mapbox.com">Mapbox</a>'
 }).addTo(map);
 // use cartodb layer
