@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Orbitist mApp</title>
+		<meta name="description" content="A web mapping application template.">
+		<meta name="author" content="Orbitist">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<!-- CartoDB CSS and JS. Includes Jquery -->
+		<link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
+		<script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+
+		<!-- Mapbox CSS -->
+		<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
+
+		<!-- Font Awesome CSS -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+		<!-- Leaflet Awesome markers CSS and JS -->
+		<link rel="stylesheet" href="plugins/leaflet-awesome/dist/leaflet.awesome-markers.css">
+		<script src="plugins/leaflet-awesome/dist/leaflet.awesome-markers.js"></script>
+
+		<!-- Leaflet Maki Markers -->
+		<script src="plugins/leaflet-maki/Leaflet.MakiMarkers.js"></script>
+	
+		<!-- Lightbox -->
+		<script src="plugins/lightbox/js/lightbox.min.js"></script>
+		<link href="plugins/lightbox/css/lightbox.css" rel="stylesheet" />
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<!-- map -->
+		<div class="map" id="map"></div>
+
+		<!-- Map Settings -->
+		<script src="settings/map.js"></script>
+	
+		<!-- Orbitist Settings -->
+		<script src="settings/orbitist.js"></script>
+   
+		<!-- Bootstrap JS -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	
+		<!-- FitVids JS -->
+		<script src="plugins/fitvids/jquery.fitvids.js"></script>
+	
+		<!-- Fitvids variables -->
+		<script>
+  			$(document).ready(function(){
+    			// Target your .container, .wrapper, .post, etc.
+  				$('.leaflet-popup-content').fitVids();
+  			});
+		</script>
+	</body>
+</html>
