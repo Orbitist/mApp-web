@@ -1,14 +1,14 @@
- var map = new L.Map('map', {
+var map = new L.Map('map', {
 	center: [0, 0],
 	zoom: 3
 });
 
-// add an OpenStreetMap tile layer
+// Add an OpenStreetMap tile layer
 L.tileLayer('http://{s}.tiles.mapbox.com/v3/orbitist.jeijd89i/{z}/{x}/{y}.png', {
 	attribution: '&copy; <a href="http://mapbox.com">Mapbox</a>'
 }).addTo(map);
 
-// use cartodb layer
+// Add cartodb layer
 cartodb.createLayer(map, 'http://orbitist.cartodb.com/api/v2/viz/040ba3cc-0252-11e4-ae4c-0e230854a1cb/viz.json')
 	.addTo(map)
 	.on('done', function(layer) {
