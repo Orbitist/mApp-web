@@ -89,6 +89,9 @@ margin-right: 8px;
 text-align: right;
 color: #eee;
 }
+.popupimage-expand:hover {
+color: #fff;
+}
 
 
 /* Youtube videos */
