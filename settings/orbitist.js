@@ -1,4 +1,4 @@
-// GeoJSON plugs in here:
+// GeoJSON is pasted before the semi-colon below:
 var orbitistApiGeoJson = ;
   
 // Markers are configured here:
