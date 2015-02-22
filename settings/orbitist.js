@@ -3,7 +3,7 @@ var orbitistGeoJson = {"type":"FeatureCollection","features":[{"type":"Feature",
   
 // Markers are configured here:
 var orbitistIcon = L.divIcon({
-        html: '<i class="fa fa-binoculars"></i>', // You can replace 'fa-fa-marker' with any font-awesome icon!
+        html: '<i class="fa fa-map-marker"></i>', // You can replace 'fa-fa-marker' with any font-awesome icon!
         className: 'fa-icon', // Don't change this unless you're really a genius!
         popupAnchor: [0, -30] // Don't change this either!
     });
