@@ -113,6 +113,6 @@ padding-top: 4px;
 }
 
 /* Carto DB adjustments */
-.cartodb-timeslider {
-width: 100%;
+div.cartodb-timeslider .slider {
+width: 100% !important;
 }
