@@ -4,8 +4,7 @@ var orbitistApiGeoJson = {"type":"FeatureCollection","features":[{"type":"Featur
 // Markers are configured here:
 var orbitistIcon = L.divIcon({
         className: 'fa-icon',
-        html: '<i class="fa fa-binoculars"></i>',
-        iconSize: [20, 20]
+        html: '<i class="fa fa-binoculars"></i>'
     });
   
 // ADVANCED: This tells the map what goes in popups.
