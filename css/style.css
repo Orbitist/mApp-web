@@ -111,3 +111,8 @@ height:175px !important;
 font-size: 35px;
 padding-top: 4px;
 }
+
+/* Carto DB adjustments */
+.cartodb-timeslider {
+width: 100%;
+}
