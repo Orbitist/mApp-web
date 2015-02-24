@@ -1,10 +1,11 @@
+// Set lat/long where the map initiates and at what zoom level
 var map = new L.Map('map', {
 	center: [0, 0],
 	zoom: 3
 });
 
 // Add an OpenStreetMap tile layer
-L.tileLayer('http://{s}.tiles.mapbox.com/v3/orbitist.l0ompebn/{z}/{x}/{y}.png', {
+L.tileLayer('http://{s}.tiles.mapbox.com/v3/orbitist.jeijd89i/{z}/{x}/{y}.png', {
 	attribution: '&copy; <a href="http://mapbox.com">Mapbox</a>'
 }).addTo(map);
 
