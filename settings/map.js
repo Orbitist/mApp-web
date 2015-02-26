@@ -5,7 +5,7 @@ var map = new L.Map('map', {
 });
 
 // Add an OpenStreetMap tile layer
-L.tileLayer('http://{s}.tiles.mapbox.com/v3/orbitist.jeijd89i/{z}/{x}/{y}.png', {
+L.tileLayer('http://{s}.tiles.mapbox.com/v3/orbitist.ffee1ab6/{z}/{x}/{y}.png', {
 	attribution: '&copy; <a href="http://mapbox.com">Mapbox</a>'
 }).addTo(map);
 
