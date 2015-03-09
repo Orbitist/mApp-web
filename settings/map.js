@@ -1,6 +1,6 @@
 // Set lat/long where the map initiates and at what zoom level
 var map = new L.Map('map', {
-	center: [0, 0],
+	center: [-55, 35],
 	zoom: 3
 });
 
