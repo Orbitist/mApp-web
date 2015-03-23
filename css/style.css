@@ -114,7 +114,7 @@ padding-top: 4px;
 
 /* Carto DB adjustments */
 div.cartodb-timeslider .slider {
-width: 100% !important;
+max-width: 100% !important;
 }
 
 /* Icons */
