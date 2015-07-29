@@ -1,7 +1,7 @@
 // Set lat/long where the map initiates and at what zoom level
 var map = new L.Map('map', {
-	center: [35, -55],
-	zoom: 3
+	center: [42.45540, -79.33896],
+	zoom: 17
 });
 
 // Add an OpenStreetMap tile layer
