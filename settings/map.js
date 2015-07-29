@@ -10,7 +10,7 @@ L.tileLayer('http://{s}.tiles.mapbox.com/v3/orbitist.ffee1ab6/{z}/{x}/{y}.png', 
 }).addTo(map);
 
 // Add cartodb layer
-cartodb.createLayer(map, 'http://orbitist.cartodb.com/api/v2/viz/040ba3cc-0252-11e4-ae4c-0e230854a1cb/viz.json')
+cartodb.createLayer(map, 'https://orbitist.cartodb.com/api/v2/viz/2bc0e686-3481-11e5-b454-0e0c41326911/viz.json')
 	.addTo(map)
 	.on('done', function(layer) {
 		//do stuff
