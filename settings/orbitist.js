@@ -1,5 +1,5 @@
 // GeoJSON is pasted before the semi-colon below:
-var orbitistGeoJson = {"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[-79.338963193176,42.455400236229]},"properties":{"name":"Forever Wild Forest","description":"\n\n\u003Cdiv class=\u0022popupbody\u0022\u003E\n \u003Cdiv class=\u0022popuptitle\u0022\u003E\n \u003Ch3\u003EForever Wild Forest\u003C\/h3\u003E\n\u003C\/div\u003E\n \n \n \n\u003C\/div\u003E"}}]};
+var orbitistGeoJson = require('http://www.app.orbitist.com/geojson/666.json');
 
 // Markers are configured here:
 var orbitistIcon = L.divIcon({
