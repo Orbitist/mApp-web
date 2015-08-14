@@ -4,7 +4,7 @@ var orbitistGeoJson = (function () {
     $.ajax({
         'async': false,
         'global': false,
-        'url': http://www.app.orbitist.com/geojson/666.json,
+        'url': 'http://www.app.orbitist.com/geojson/96.json',
         'dataType': "json",
         'success': function (data) {
             json = data;
