@@ -1,5 +1,17 @@
 // GeoJSON is pasted before the semi-colon below:
-var orbitistGeoJson = require('http://www.app.orbitist.com/geojson/666.json');
+var orbitistGeoJson = (function () {
+    var json = null;
+    $.ajax({
+        'async': false,
+        'global': false,
+        'url': http://www.app.orbitist.com/geojson/666.json,
+        'dataType': "json",
+        'success': function (data) {
+            json = data;
+        }
+    });
+    return json;
+})(); 
 
 // Markers are configured here:
 var orbitistIcon = L.divIcon({
